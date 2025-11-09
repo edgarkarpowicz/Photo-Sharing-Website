@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+.error-container {
+    border: 20px solid rgba(171, 183, 183, 0.9);
+    min-height: 100vh;
+    background-image: url(../img/creacion_cuenta_background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    max-width: 400px;
+    background: rgba(171, 183, 183, 0.9);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    text-align: center;
+    font-size: 34px;
+    color: #FFF;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card-subtitle {
+    color: red;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    letter-spacing: .2rem;
+}
+
+.text-muted {
+    font-size: medium;
+    color: #DDD;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.btn-lg {
+    font-size: 18px;
+    padding: 10px 25px;
+    background-color: #dc3545; /* Bootstrap danger color */
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-lg:hover {
+    background-color: #c82333;
+    transform: translateY(-3px);
+    color: #FFF;
+}

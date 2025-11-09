@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+.main-container {
+    border: 20px solid rgba(171, 183, 183, 0.9);
+    min-height: 100vh;
+    background-image: url(../img/ingresar_cuenta_background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    background: rgba(171, 183, 183, 0.9);
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 36px;
+    color: #FFF;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card-subtitle {
+    text-align: center;
+    font-size: 17px;
+    color: #DDD;
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.7);
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid rgba(171, 183, 183, 0.3);
+    box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-lg {
+    font-size: 18px;
+    padding: 10px 25px;
+    background-color: #00b4d8;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-lg:hover {
+    background-color: #0077b6;
+    transform: translateY(-3px);
+    color: #FFF;
+}

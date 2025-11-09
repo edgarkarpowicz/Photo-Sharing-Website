@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../img/Mi_Perfil_Background.png');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+    z-index: -1;
+    border: 20px solid rgba(171, 183, 183, 0.9);
+}
+
+header {
+    position: relative;
+    z-index: 3; /* Ensure header is above the background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(171, 183, 183, 0.65);
+    width: 98%;
+    color: black;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#logo {
+    font-size: 40px;
+    color: black;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+    padding-left: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#buttons .btn {
+    font-size: 20px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+#buttons .btn:hover {
+    transform: scale(1.05);
+}
+
+.profile-section {
+    padding: 40px 0;
+}
+
+.left-section {
+    text-align: center;
+    padding: 20px;
+    border-right: 2px solid rgba(90, 90, 90, 0.3);
+}
+
+.profile-image-container {
+    margin-bottom: 20px;
+}
+
+#profile-image {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.7);
+}
+
+.profile-info .info {
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.edit-form {
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.edit-form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 4px;
+    color: white;
+    background-color: gray;
+    background-size: cover;
+    border: 2px black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.edit-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.edit-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #9ab7b7;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-form button:hover {
+    background-color: #7e8d8d;
+}

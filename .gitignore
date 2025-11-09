@@ -1,0 +1,47 @@
+# Documentation files
+*.pdf
+*.docx
+*.doc
+LAB III - Sitio WEB - Informe.docx
+PDF - LAB III - Sitio WEB - Informe.pdf
+
+# User uploaded content
+profilePictures/
+uploadedPictures/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# PHP
+*.cache
+
+# Database backup files
+*.sql.gz
+*.sql.zip
+backup/
+
+# Environment and configuration files (if you create them)
+.env
+config.local.php
+
+# Node modules (if you add any front-end build tools)
+node_modules/
+package-lock.json
+
+# Composer (if you add PHP dependencies)
+vendor/
+composer.lock
